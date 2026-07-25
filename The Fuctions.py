@@ -107,3 +107,37 @@ result2 = is_adult(18)
 print (f"18: {result2}")
 result3 = is_adult(25)
 print (f"25: {result3}")
+
+
+
+#Challenge 8: Delivery Fee
+
+def delivery_fee(order_total):
+       
+       if order_total>= 50:   
+           return 0
+       else: 
+           return 10
+            
+      
+           
+
+
+result1 = delivery_fee(35)
+order = 35
+fee = result1
+total = order + fee 
+print(f" Order: ${order} , Fee : ${fee} , Total: ${total}")
+
+result2 = delivery_fee(60)
+order = 60
+fee = result2
+total = order + fee
+print (f" Order: ${order} , Fee: ${fee} Total: ${total}")
+
+
+result3 = delivery_fee(48)
+order = 48
+fee = result3 
+total = order + fee 
+print(f" Order: ${order} , Fee: ${fee} , Total: ${total}")
