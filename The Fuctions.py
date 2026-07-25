@@ -131,9 +131,21 @@ fee = result2
 total = order + fee
 print (f" Order: ${order} , Fee: ${fee} Total: ${total}")
 
-
 result3 = delivery_fee(48)
 order = 48
 fee = result3 
 total = order + fee 
 print(f" Order: ${order} , Fee: ${fee} , Total: ${total}")
+
+
+
+# Challenge 9: Greeting Card
+
+def greeting(name,message):
+      print ("==================")
+      print(f" To: {name} ")
+      print (f" Message: {message}")
+      print("===================")
+            
+greeting("Ahmed" , "Happy Birthday!")
+greeting ("Hodan" , "Congratulations!")
