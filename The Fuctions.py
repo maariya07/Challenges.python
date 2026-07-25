@@ -118,10 +118,6 @@ def delivery_fee(order_total):
            return 0
        else: 
            return 10
-            
-      
-           
-
 
 result1 = delivery_fee(35)
 order = 35
