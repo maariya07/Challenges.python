@@ -88,3 +88,22 @@ result1 = area(5,4)
 print (f" Room 1: {result1}")
 result2 = area (10,3)
 print (f" Room 2: {result2}")
+
+
+#Challenge 7: Is Adult
+
+def is_adult(age):
+
+    if age >= 18:
+       return True
+    
+    elif age < 18:
+         return False
+    
+    
+result1 = is_adult(12)
+print (f"12: {result1}")
+result2 = is_adult(18)
+print (f"18: {result2}")
+result3 = is_adult(25)
+print (f"25: {result3}")
