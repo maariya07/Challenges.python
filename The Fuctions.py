@@ -149,3 +149,35 @@ def greeting(name,message):
             
 greeting("Ahmed" , "Happy Birthday!")
 greeting ("Hodan" , "Congratulations!")
+
+
+
+# Challenge 10: Receipt Printer
+
+
+def subtotal(price, qty):
+    subtotal = price * qty
+    return subtotal
+
+
+def tax(amount):
+    return amount * 0.10
+
+
+def print_receipt(item, price, qty):
+    sub = subtotal(price, qty)
+    tax_amount = tax(sub)
+    total = sub + tax_amount
+
+    print("========================")
+    print("       RECEIPT")
+    print("========================")
+    print(f"Item: {item}")
+    print(f"Qty: {qty}")
+    print(f"Subtotal: ${sub}")
+    print(f"Tax: ${tax_amount}")
+    print(f"Total: ${total}")
+    print("========================")
+
+
+print_receipt("Pizza", 10, 3)
