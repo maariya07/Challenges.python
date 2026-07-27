@@ -1,1 +1,6 @@
+# Challenge 1: My Friends
 
+friends = [ "Ahmed" , "Amina" , "Hodan" , "Nimo"]
+
+print(f"Firt: {friends[0]}")
+print(f"Last:{friends[3]}")
