@@ -72,3 +72,23 @@ if search in contacts:
     print(f"{search}: {contacts[search]}")
 else:
     print("Not found.")
+
+
+#Challenge 8: Shopping List
+
+shoping = []
+
+while True:
+    item = input("Add item: ")
+
+    if item == "done":
+        break
+
+    shoping.append(item)
+
+for i, s in enumerate(shoping, start=1):
+    print(f"{i}. {s}")
+
+print(f"Total: {len(shoping)}")
+
+
