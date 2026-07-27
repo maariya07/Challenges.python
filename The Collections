@@ -28,3 +28,15 @@ print(f"Lowest: {grades[3]}")
 names = ["Oslo" , "London", "Oslo" , "Nairobi", "London"]
 unique = set(names)
 print (unique)
+
+
+# Challenge 5: Student Card
+
+students = {
+         "name": "Ahmed",
+         "age":  22,
+         "city":   "Oslo"
+}
+print(students["name"])
+print(students["age"])
+print(students["city"])
