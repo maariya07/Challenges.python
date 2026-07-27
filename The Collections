@@ -40,3 +40,26 @@ students = {
 print(students["name"])
 print(students["age"])
 print(students["city"])
+
+
+
+# Challenge 6: Update Profile
+
+
+
+
+
+# Challenge 7: Phone Book
+        
+contacts = {
+    "Ahmed": "98765432",
+    "Hodan": "09890768",
+    "Muniira": "782356789"
+}
+
+search = input("Enter person you want: ")
+
+if search in contacts:
+    print(f"{search}: {contacts[search]}")
+else:
+    print("Not found.")
