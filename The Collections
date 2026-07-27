@@ -14,8 +14,17 @@ shoping.append("Milk")
 shoping.remove("Chicken")
 print (shoping)
 
+
 # Challenge 3: Highest Score
 
 grades = [ 88, 72, 95, 60, 84]
 print(f"Highest: {grades[2]}")
 print(f"Lowest: {grades[3]}")
+
+
+
+# Challenge 4: Remove Duplicates
+
+names = ["Oslo" , "London", "Oslo" , "Nairobi", "London"]
+unique = set(names)
+print (unique)
