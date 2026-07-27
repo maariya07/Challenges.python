@@ -4,3 +4,12 @@ friends = [ "Ahmed" , "Amina" , "Hodan" , "Nimo"]
 
 print(f"Firt: {friends[0]}")
 print(f"Last:{friends[3]}")
+
+
+# challenge 2: Add and Remove
+
+shoping= ["Rice" , "Chicken" , "Bread" ]
+
+shoping.append("Milk")
+shoping.remove("Chicken")
+print (shoping)
