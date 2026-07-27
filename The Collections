@@ -46,6 +46,15 @@ print(students["city"])
 # Challenge 6: Update Profile
 
 
+student= {
+             "name":  "Ahmed" , 
+             "age":  "22", 
+             " city":  "London"
+           
+}
+student["city"] =  "London"
+student["email"] =" ahmed@gmail.com"
+print(student)
 
 
 
