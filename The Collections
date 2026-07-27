@@ -53,6 +53,7 @@ student= {
            
 }
 student["city"] =  "London"
+print(student)
 student["email"] =" ahmed@gmail.com"
 print(student)
 
