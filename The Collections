@@ -92,3 +92,24 @@ for i, s in enumerate(shoping, start=1):
 print(f"Total: {len(shoping)}")
 
 
+
+# Challenge 9: Class Results
+
+           
+students = [
+    {"name": "Ahmed", "score": 85},
+    {"name": "Bile", "score": 45},
+    {"name": "Nimo", "score": 67}
+]
+
+for s in students:
+    if s["score"] >= 60:
+        print(f'{s["name"]}: {s["score"]} - Pass')
+    else:
+        print(f'{s["name"]}: {s["score"]} - Fail')
+
+
+
+# Challenge 10: Product Lookup
+
+
