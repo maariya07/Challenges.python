@@ -112,4 +112,23 @@ for s in students:
 
 # Challenge 10: Product Lookup
 
+Given this list of products:
+
+products = [
+{"name": "Laptop", "price": 999},
+{"name": "Phone", "price": 699},
+{"name": "Headphones", "price": 149}
+]
+#Ask the user for a product. If found, print the price. If not, print "Not found."
+
+search = input("Search: ").strip()
+
+for product in products:
+if product["name"].lower() == search.lower():
+print(f'{product["name"]}: ${product["price"]}')
+break
+else:
+print("Not found.")
+
+Sax miyaa
 
